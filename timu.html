@@ -139,8 +139,8 @@
                 <div v-for="(i,k) in timu.option" v-key='k' @click='select(k)' :class='daan.indexOf(k)!=-1?"active":""'>
                     {{zidian[k]}}.{{i}}</div>
             </div>
-            <div type="success" v-if='answer&&result===1' class='result success'>恭喜回答正确！</div>
-            <div type="warning" v-if='answer&&result===0' class='result warning'>抱歉回答错误，惩罚和杨陆双一日游！</div>
+            <div type="success" v-if='answer&&result===1' class='result success'>&#128513;恭喜回答正确！</div>
+            <div type="warning" v-if='answer&&result===0' class='result warning'>&#128520;抱歉回答错误，惩罚和杨陆双一日游！</div>
             <div v-if='answer&&result===2' class='result info'>{{(String(timu.answer).length>16?'简答':'填空')}}题暂不支持回答
             </div>
             <div v-if='answer' class="answer">答案：{{timu.answer}}</div>
