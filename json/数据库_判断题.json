@@ -307,7 +307,7 @@
             "错误"
         ],
         "answer": "B",
-        "analysis": ""
+        "analysis": "参数列表默认情况是IN,OUT,INOUT。"
     },
     {
         "id": "202306251212949662",
